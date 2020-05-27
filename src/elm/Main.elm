@@ -10,5 +10,5 @@ main =
     Warrior.program
         { maps = Maps.all
         , player = Player.takeTurn
-        , msPerTurn = 250
+        , msPerTurn = 1000
         }

@@ -6,7 +6,7 @@
     "elm-version": "0.19.1",
     "dependencies": {
         "direct": {
-            "Skinney/elm-warrior": "1.2.0",
+            "Skinney/elm-warrior": "2.0.0",
             "elm/browser": "1.0.2",
             "elm/core": "1.0.4",
             "elm/html": "1.0.0",
@@ -16,7 +16,8 @@
         "indirect": {
             "elm/json": "1.1.3",
             "elm/url": "1.0.0",
-            "elm/virtual-dom": "1.0.2"
+            "elm/virtual-dom": "1.0.2",
+            "tesk9/palette": "2.0.0"
         }
     },
     "test-dependencies": {

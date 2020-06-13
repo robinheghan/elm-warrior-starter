@@ -1,9 +1,10 @@
 module Player exposing (takeTurn)
 
+import Warrior exposing (Warrior)
+import Warrior.History exposing (History)
 import Warrior.Map exposing (Map)
-import Warrior.Player as Player exposing (Player)
 
 
-takeTurn : Player -> Map -> Player.Action
-takeTurn player map =
-    Player.Wait
+takeTurn : Warrior -> Map -> History -> Warrior.Action
+takeTurn warrior map history =
+    Warrior.Wait

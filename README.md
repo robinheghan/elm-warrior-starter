@@ -10,7 +10,7 @@ Install dependencies and setup a dev server using:
 
 ```bash
 npm install
-npm run dev
+npm start
 ```
 
 You can now edit the contents of `src/Player.elm`. This will decide the actions for your warrior.

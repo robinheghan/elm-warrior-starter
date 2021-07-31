@@ -5,6 +5,7 @@
 node_modules
 .cache
 dist
+.parcel-cache
 
 # elm-package generated files
 elm-stuff
